@@ -1,0 +1,335 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: '微软雅黑';
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f5f7;
+}
+
+div {
+  display: block;
+  overflow: hidden;
+}
+
+input {
+  outline: none;
+  /* outline(轮廓)去除轮廓线 */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #050505;
+}
+
+.head {
+  height: 102px;
+  /* background-color: pink; */
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.head1 {
+  width: 1200px;
+  height: 42px;
+  /* background-color: #11FF9C; */
+  margin: 30px auto 29px;
+}
+
+.headimg {
+  float: left;
+}
+/* .headimg img{
+      width: 204px;
+      height:123px;
+  } */
+
+.nav {
+  float: left;
+  margin-left: 30px;
+}
+
+.nav li {
+  float: left;
+  padding: 0 9px;
+}
+
+.nav li a {
+  /* a链接必须转为行内块元素才能设置宽高 */
+  display: inline-block;
+  line-height: 42px;
+  height: 42px;
+  font-size: 18px;
+  margin-left: 20px;
+  padding: 0 9px;
+  color: #050505;
+}
+
+.nav li a:hover {
+  color: #00a4ff;
+  border-bottom: 2px solid #00a4ff;
+}
+
+.headinput {
+  float: left;
+}
+
+.headinput input {
+  float: left;
+  height: 42px;
+  width: 340px;
+  margin-left: 70px;
+  padding-left: 20px;
+  border: 1px solid #00a4ff;
+}
+
+.headinput input::placeholder {
+  font-size: 14px;
+  color: #bfbfbf;
+}
+
+.headinput button {
+  float: left;
+  height: 40px;
+  width: 50px;
+  border: 0;
+  background-image: url(../imgs/btn.png);
+  background-color: #00a4ff;
+  background-repeat: no-repeat;
+}
+
+.user {
+  float: right;
+  margin-right: 35px;
+  height: 42px;
+  line-height: 42px;
+}
+
+.user img {
+  vertical-align: middle;
+  /* 调节图片垂直对齐方式 middle居中 */
+  margin-right: 4px;
+  width: 30px;
+  height: 30px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.category {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.category-root > li {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: #d6caca 1px solid;
+}
+.category-root > li:last-child {
+  border-bottom: none;
+}
+
+.category-root > li > span {
+  float: left;
+}
+
+.category-item {
+  float: left;
+  height: 40px;
+}
+.category-item li {
+  float: left;
+  width: 100px;
+  margin-right: 10px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.category-item li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.category-item li a:hover {
+  color: #00a4ff;
+}
+
+.category-item .active {
+  color: #00a4ff;
+}
+
+.course-area {
+  margin-bottom: 30px;
+}
+
+.course-area ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.course-area ul li {
+  width: 23%;
+  height: 270px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #d6caca;
+}
+
+.course-area ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.course-area ul li a:hover {
+  background-color: #cecdcd;
+}
+
+.course-area ul li a img {
+  width: 100%;
+}
+
+.course-area ul li a>span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.course-area ul li a>span:hover {
+  color: #00a4ff;
+}
+
+.course-area ul li a div {
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.course-area li a div em {
+  color: #ff7c2d;
+  font-style: normal;
+}
+
+.page-indicator {
+  margin-bottom: 30px;
+}
+
+.page-indicator-ul {
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-indicator-ul li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  box-shadow: 0 0 5px #d6caca;
+}
+
+.page-indicator-ul li:last-child {
+  margin-right: 0;
+}
+
+.page-indicator-ul .active {
+  background-color: #00a4ff;
+  color: #fff;
+}
+
+.page-indicator-ul li:hover {
+  background-color: #00a4ff;
+  color: #fff;
+}
+
+.page-indicator-ul .pre {
+  width: 100px ;
+}
+
+.page-indicator-ul .next {
+  width: 100px;
+}
+
+.guess-like {
+  position: absolute;
+  right: 10px;
+  top: 270px;
+  width: 130px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #d6caca;
+}
+
+.guess-like h4 {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.guess-like-ul {
+  margin-top: 10px;
+}
+
+.guess-like-ul li {
+  height: 80px;
+  margin: 0 2px;
+  border-bottom: #d6caca 1px solid;
+}
+
+.guess-like-ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.guess-like-ul li a>span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.guess-like-ul li:last-child {
+  border-bottom: none;
+}
+
+.guess-like-ul li a:hover {
+  background-color: #00a4ff;
+  color: #fff;
+}
+
+.guess-like-ul li a div  {
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.guess-like-ul li a div em {
+  color: #ff7c2d;
+  font-style: normal;
+}
