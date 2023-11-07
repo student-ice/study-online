@@ -10,6 +10,7 @@
 }
 
 .footer {
+  padding-top: 50px;
   margin: 25px auto;
   border: 1px solid transparent;
   height: 400px;
@@ -18,7 +19,7 @@
 
 .footer-left {
   float: left;
-  height: 432px;
+  height: 300px;
   width: 377px;
   /* background-color: #00ffff; */
 }
