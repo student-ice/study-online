@@ -1,0 +1,94 @@
+/* 底部 */
+#footer {
+  background-color: #fff;
+}
+
+/* 底部 */
+#footer {
+  background-color: #fff;
+  height: 300px;
+}
+
+.footer {
+  margin: 25px auto;
+  border: 1px solid transparent;
+  height: 400px;
+  /* background-color: pink; */
+}
+
+.footer-left {
+  float: left;
+  height: 432px;
+  width: 377px;
+  /* background-color: #00ffff; */
+}
+
+.footer-left > img {
+  height: 60px;
+  width: 250px;
+}
+
+.footer-left > p {
+  font-size: 13px;
+  color: #666;
+  margin: 15px 0px;
+}
+
+.footer-left > a {
+  display: block;
+  width: 120px;
+  height: 36px;
+  border: 2px solid #00a4ff;
+  margin-bottom: 230px;
+  line-height: 36px;
+  text-align: center;
+  color: #00a4ff;
+}
+
+.footer-left > a:hover {
+  background-color: #00a4ff;
+  color: #55ffff;
+}
+
+.footer-right {
+  float: left;
+}
+
+.footer-right dl {
+  float: left;
+  margin: 0 15px 0 150px;
+  font-size: 13px;
+  color: #666;
+}
+
+.footer-right dd a {
+  display: block;
+  line-height: 24px;
+  color: #666;
+}
+
+.footer-right dl dt {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+/* 返回顶部 */
+.return {
+  position: fixed;
+  right: 180px;
+  bottom: 40px;
+  border-radius: 15px;
+  float: right;
+  background-color: #b3f2ff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.return img {
+  width: 80%;
+  height: 80%;
+}
+.return:hover {
+  color: #00a4ff;
+  background-color: #627576;
+}

@@ -1,0 +1,87 @@
+.head {
+  height: 102px;
+  /* background-color: pink; */
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.head1 {
+  width: 1200px;
+  height: 42px;
+  /* background-color: #11FF9C; */
+  margin: 30px auto 29px;
+}
+
+.headimg {
+  float: left;
+}
+
+/* .headimg img{
+                width: 204px;
+                height:123px;
+            } */
+
+.nav {
+  float: left;
+  margin-left: 30px;
+}
+
+.nav li {
+  float: left;
+  padding: 0 9px;
+}
+
+.nav li a {
+  /* a链接必须转为行内块元素才能设置宽高 */
+  display: inline-block;
+  line-height: 42px;
+  height: 42px;
+  font-size: 18px;
+  margin-left: 20px;
+  padding: 0 9px;
+  color: #050505;
+}
+
+.nav li a:hover {
+  color: #00a4ff;
+  border-bottom: 2px solid #00a4ff;
+}
+
+/* 搜索框 */
+.headinput {
+  float: left;
+  width: 394px;
+  border: 1px solid #00a4ff;
+  margin-left: 56px;
+}
+
+.headinput input {
+  float: left;
+  width: 340px;
+  height: 40px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.headinput button {
+  float: left;
+  border: none;
+  width: 52px;
+  height: 40px;
+  background-image: url(../imgs/btn.png);
+  background-repeat: no-repeat;
+  background-color: #00a4ff;
+}
+
+.user {
+  float: left;
+  margin-left: 30px;
+  line-height: 42px;
+  font-size: 14px;
+  color: #666;
+}
+
+.user > img {
+  vertical-align: middle;
+}
