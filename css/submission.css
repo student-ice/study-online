@@ -40,7 +40,7 @@ a {
 
 .left-content {
   float: left;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   height: 100%;
   width: 200px;
   background-color: #fff;
@@ -95,7 +95,7 @@ a {
   align-items: center;
   width: 100%;
   height: 100%;
-  background: #fafafa;
+  background: #e9e9ef;
 }
 
 .upload .upload-area {
