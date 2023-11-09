@@ -13,13 +13,13 @@
   padding-top: 50px;
   margin: 25px auto;
   border: 1px solid transparent;
-  height: 400px;
+  height: 300px;
   /* background-color: pink; */
 }
 
 .footer-left {
   float: left;
-  height: 300px;
+  /* height: 300px; */
   width: 377px;
   /* background-color: #00ffff; */
 }
@@ -40,7 +40,7 @@
   width: 120px;
   height: 36px;
   border: 2px solid #00a4ff;
-  margin-bottom: 230px;
+  /* margin-bottom: 230px; */
   line-height: 36px;
   text-align: center;
   color: #00a4ff;
