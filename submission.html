@@ -57,7 +57,14 @@
       </div>
       <div class="upload">
         <div class="upload-area">
-          <a href="javascript:;">上传视频</a>
+          <div>
+            <button id="select-btn">选择视频</button>
+            <button id="upload-btn">上传</button>
+          </div>
+          <input type="file" multiple id="upload-input" accept="video/*" />
+          <table id="upload-table">
+            <tbody id="upload-tbody"></tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -102,5 +109,6 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="js/submission.js"></script>
   </body>
 </html>
