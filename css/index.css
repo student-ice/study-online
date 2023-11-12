@@ -37,12 +37,11 @@ a {
 /* 轮播 */
 .banner {
   height: 420px;
-  background-color: #1b026b;
+  background-image: url(../imgs/banner1.png);
 }
 
 .banner .wrapper {
   height: 420px;
-  background-image: url(../imgs/big-banner.png);
 }
 
 /* left */
@@ -360,4 +359,3 @@ a {
 .box1-bd span {
   margin: 0 8px;
 }
-
