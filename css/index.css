@@ -185,7 +185,7 @@ a {
 
 .box-bd {
   margin-top: 15px;
-  height: 600px;
+  height: 580px;
 }
 
 .box-bd img {
@@ -247,6 +247,7 @@ a {
   height: 42px;
   /* background-color: pink; */
   line-height: 42px;
+  margin-bottom: 20px;
 }
 
 .box1-hd h3 {
