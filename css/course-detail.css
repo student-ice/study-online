@@ -81,9 +81,12 @@ a {
 }
 
 .bottom .btn {
+  display: inline-block;
   width: 130px;
   height: 40px;
   background-color: #df1591;
+  text-align: center;
+  line-height: 40px;
   color: white;
   font-size: 18px;
   border: none;
