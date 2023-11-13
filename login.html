@@ -150,6 +150,8 @@
       }
       /* 按钮 */
       .btn {
+        display: inline-block;
+        text-align: center;
         background-color: blue;
         background-image: linear-gradient(
           90deg,
@@ -208,7 +210,7 @@
           <input type="text" placeholder="账户" class="input" />
           <input type="email" placeholder="Email" class="input" />
           <input type="password" placeholder="密码" class="input" />
-          <button class="btn">注 册</button>
+          <button class="btn register-btn">注 册</button>
         </form>
       </div>
 
@@ -219,7 +221,7 @@
           <input type="email" placeholder="Email" class="input" />
           <input type="password" placeholder="密码" class="input" />
           <a href="#" class="link">忘记了你的密码?</a>
-          <button class="btn">登录</button>
+          <a class="btn login-btn">登录</a>
         </form>
       </div>
 
@@ -236,18 +238,6 @@
       </div>
     </div>
 
-    <script>
-      const signInBtn = document.getElementById('signIn');
-      const signUpBtn = document.getElementById('signUp');
-      const container = document.querySelector('.container');
-
-      signInBtn.addEventListener('click', () => {
-        container.classList.remove('right-panel-active');
-      });
-
-      signUpBtn.addEventListener('click', () => {
-        container.classList.add('right-panel-active');
-      });
-    </script>
+    <script type="text/javascript" src="js/login.js"></script>
   </body>
 </html>
