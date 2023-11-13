@@ -1,18 +1,11 @@
-const loginBtn = document.querySelector('.login-btn');
 const registerBtn = document.querySelector('.register-btn');
-
-loginBtn.addEventListener('click', () => {
-  // 跳转到首页
-  window.location.href = './index.html';
-});
+const signInBtn = document.getElementById('signIn');
+const signUpBtn = document.getElementById('signUp');
+const container = document.querySelector('.container');
 
 registerBtn.addEventListener('click', () => {
   container.classList.remove('right-panel-active');
 });
-
-const signInBtn = document.getElementById('signIn');
-const signUpBtn = document.getElementById('signUp');
-const container = document.querySelector('.container');
 
 signInBtn.addEventListener('click', () => {
   container.classList.remove('right-panel-active');
