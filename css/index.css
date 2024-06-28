@@ -316,6 +316,14 @@
   line-height: 32px;
 }
 
+.box1-bd .zzz {
+  height: 27px;
+  line-height: 27px;
+  margin: 0 20px 0;
+  color: #999;
+  font-size: 12px;
+}
+
 .box1-bd em {
   color: #ff7c2d;
   font-style: normal;
